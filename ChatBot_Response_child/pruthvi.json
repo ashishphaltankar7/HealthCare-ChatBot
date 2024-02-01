@@ -1,0 +1,212 @@
+{"intents":[
+    {"tag":"greetings",
+     "patterns":["hello","hey","hi","good day","greetings","what's up ?","how is it going ?"],
+     "responses":["hello!","Hey!","what can I do for you ?"]
+    },
+    {"tag":"goodbye",
+     "patterns":["cya","See you later","Goodbye","I am Leaving","Have a Good day","bye","cao","see ya"],
+     "responses":["Sad to see you go :(","Talk to you later","Goodbye!"]},
+    {"tag":"age",
+     "patterns":["how old","what is your age","how old are you","age"],
+     "responses":["My owner pruthvi is 20 years old","21 years !"]
+
+
+    },
+    {"tag":"name",
+     "patterns":["what is your name","what should i call you","whats your name?","who your name?","who are you?","can you tell me your name?"],
+     "responses":["you can call me PR!","i am PR!","i am PR the assistant of pruthvi!"]
+
+
+    },
+    {"tag":"hours",
+     "patterns":["when are you guys open","what are your hours","hours of operation"],
+     "responses":["24/7"]
+
+    },
+    {
+        "tag": "caring",
+        "patterns": ["How are you doing?","How are you?"],
+        "responses": ["I m fine! Thanks for asking", "I m doing good! How can I help you?"]
+    },
+    {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+        "tag": "noanswer",
+        "patterns": [""],
+        "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+    },
+    {
+        "tag": "options",
+        "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+        "responses": ["I am a Health Care  Bot to help you", "I can give you suggestions related to Health condition"]
+    },
+    {
+        "tag": "ask",
+        "patterns": ["I am not feeling well","I guess I am suffering from COVID","How can you tell I am suffering from COVID"],
+        "responses": ["Please tell about your symptomps and I will tell you how much severe they are","Tell me your symptomps and I will tell you how much severe they are"]
+    },
+   
+    {
+        "tag": "lesscommon",
+        "patterns": ["sore throat","loss of smell","loss of taste","cant smell anything","cant taste anything","headache","aches and pain","diarrhoea","a rash on skin","discoloration of fingers or toes","red irritated eyes"],
+        "responses": ["You might be suffering from Sore throat but this is not much sever. Take Azithromycin 500mg Tablet after Dinner or Lunch, Drin luke warm water frequently"]
+    },
+    {
+        "tag": "serious",
+        "patterns": ["difficulty breathing","shortness of breath","loss of speech","loss of mobility","loss of confusion","chest pain"],
+        "responses": ["Seek immediate medical attention if you have serious symptoms. Always call before visiting your doctor or health facility.\nYou can also seek for some food suggestion"]
+    },
+   
+    {
+        "tag": "foodsuggestion2",
+        "patterns": ["What kind of food should I neglect?","What should i dont eat?","What kind of food items should I avoid for better health?"],
+        "responses": ["1. Limit your salt intake\n2. Limit sugar intake\n3. Limit your fat intake\n4. Avoid alcohol as much as you can"]
+    },
+    {
+        "tag": "foodprecautions",
+        "patterns": ["What kind of measures should I take to avoid Diseases","What should i dont eat?","What kind of food items should I avoid for better health?"],
+        "responses": ["1.Take proper diet include proteins,vitamins in your diet\n2. Limit sugar intake\n3. Limit your fat intake\n4. Avoid alcohol as much as you can"]
+    },
+  
+   
+  
+   
+    {
+        "tag": "What can I do to protect myself and prevent the spread of disease?",
+        "patterns": ["What can I do to protect myself and prevent the spread of disease", "Protection measures for everyone", "prevent the spread of disease"],
+        "responses": ["Stay aware about personal Hygiene eat well cooked food. \nEat seasonable fruits and do regular doctor checkups"]
+    },
+    {
+        "tag": "How likely am I to catch any Disease",
+        "patterns": ["How likely am I to catch Disease"],
+        "responses": ["The risk depends on how you keep Hygiene. Because most of the disease are caused due to not maitinaing hygine."]
+    },
+    
+
+    
+  
+    {
+        "tag": "Is there a vaccine, drug or treatment for COVID-19",
+        "patterns": ["Is there a vaccine, drug or treatment for COVID 19", "Is there a vaccine, drug or treatment for coronavirus"],
+        "responses": ["Not yet. To date, there is no vaccine and no specific antiviral medicine to prevent or treat COVID-2019. However, those affected should receive care to relieve symptoms. People with serious illness should be hospitalized. Most patients recover thanks to supportive care.Possible vaccines and some specific drug treatments are under investigation. They are being tested through clinical trials. WHO is coordinating efforts to develop vaccines and medicines to prevent and treat COVID-19.The most effective ways to protect yourself and others against COVID-19 are to frequently clean your hands, cover your cough with the bend of elbow or tissue, and maintain a distance of at least 1 meter (3 feet) from people who are coughing or sneezing"]
+    },
+    {"tag": "options",
+    "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+    "responses": ["I can guide you through Adverse drug reaction list, Blood pressure tracking, Hospitals and Pharmacies", "Offering support for Adverse drug reaction, Blood pressure, Hospitals and Pharmacies"],
+    "context": [""]
+   }
+   ,
+   {
+    "tag":"common cold symptoms",
+    "patterns": ["Runny or stuffy nose",
+    "Sore throat",
+    "Cough",
+    "Congestion",
+    "Slight body aches or a mild headache",
+    "Sneezing",
+    "Low-grade fever",
+    "Generally feeling unwell (malaise)"],
+    "responses":["It seems that you are suffering from common cold"]
+   },
+   {
+    "tag":"fever symptoms",
+    "patterns":["Sweating",
+    "Chills and shivering",
+    "Headache",
+    "Muscle aches",
+    "Loss of appetite",
+    "Irritability",
+    "Dehydration",
+    "General weakness"],
+    "responses":["It seems that you are suffering from fever"]
+   },
+   {
+    "tag":"Diabetes symptoms",
+    "patterns":["increased hunger",
+    "increased thirst",
+    "weight loss",
+    "frequent urination",
+    "blurry vision",
+    "extreme fatigue"],
+    "responses":["It seems that you are suffering from Diabetes"]
+   },
+   {
+    "tag":"Depression symptoms",
+    "patterns":["Hopeless outlook",
+    "Lost interest",
+    "Increased fatigue",
+    "sleep problem",
+    "Anxiety",
+    "change in weight",
+    "Looking at death"],
+    "responses":["It seem that you are suffering from depression"]
+   },
+   {
+    "tag":"Asthma symptoms",
+    "patterns":["coughing",
+    "tightness in the chest",
+    "shortness of breath",
+    "difficulty talking",
+    "panic",
+    "fatigue"],
+    "responses":["It seem that you are suffering from Asthma"]
+   },
+   {
+    "tag":"common cold prevention",
+    "patterns":["What medicines can I buy to help me with my common cold?","tell me some prevention method from common cold","What should I eat or drink if i am suffering from common cold?","How can I keep from getting a cold or the flu?"],
+    "responses":["medicines you can consume :Citrizine, Sinarest,Crocin Cold & Flu Max. \npreventions that you must follow :Wash your hands,Avoid touching your face,Clean frequently used surfaces,Use hand sanitizers,SUGGESTED FOODS ARE:Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup \nFlomist Nasal Spray / Otrivin Nasal Spray you can use this Nasal Spray in case you are suffering from running nose"]
+   },
+   {
+    "tag":"fever prevention",
+    "patterns":["What medicines can I buy to help me with my fever?","tell me some prevention method from fever","What should I eat or drink if i am suffering from fever?","How can I keep from getting a fever?"],
+    "responses":["medicines you can consume : Sumocold, Paracetomol,Dolo 650,aspirin,Crocin Cold & Flu Max Tablet. \nprevention that you must follow :Wash your hands,Cover your mouth when you cough and your nose when you sneeze,Clean frequently used surfaces,Avoid sharing cups, glasses, and eating utensils with other people.,SUGGESTED FOODS ARE:Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup"]
+   },
+   {
+    "tag":"Allergy",
+    "patterns":["I am suffering from allergy","How to cure Allergy","Which medicines should I take to get recover from Allergy?"],
+    "responses":["medicines you can consume : Avil Tablet,Decardon Tablet \nAlso please consult with a physician."]
+
+   },
+   {
+    "tag":"diabetes prevention",
+    "patterns":["What medicines can I buy to help me with my diabetes?","tell me some prevention method from diabetes","What should I eat or drink if i am suffering from diabetes?","How can I keep from getting diabetes?"],
+    "responses":["medicines you can consume : Insulin ,Amylinomimetic drug,Dipeptidyl peptidase-4 (DPP-4) inhibitor, prevention that you must follow :Cut Sugar and Refined Carbs From Your Diet,Work Out Regularly,Drink Water as Your Primary Beverage,Lose Weight If You’re Overweight or Obese,Quit Smoking, Follow a Very-Low-Carb Diet,Watch Portion Sizes,SUGGESTED FOODS ARE:Leafy greens,Avocados,Eggs"]
+   },
+   {
+    "tag":"depression prevention",
+    "patterns":["What medicines can I buy to help me with my depression?","tell me some prevention method from depression","What should I eat or drink if i am suffering from depression?","How can I keep from getting depression?"],
+    "responses":["medicines you can consume : Amixide-H Tablet , \nprevention that you must follow :Exercise regularly,Cut back on social media time,Drink Water as Your Primary Beverage,Build strong relationships,Minimize your daily choices, Follow a Very-Low-Carb Diet,SUGGESTED FOODS ARE:Get Enough Vitamin D,Include Omega-3 Fatty Acids,Beans and legumes"]
+   },
+   {
+    "tag":"asthma prevention",
+    "patterns":["What medicines can I buy to help me with my asthma?","tell me some prevention method from asthma","What should I eat or drink if i am suffering from asthma?","How can I keep from getting asthma?"],
+    "responses":["medicines you can consume : Deriphyllin Tablet ,Decardon Tablet, epinephrine,anticholinergic,Proair HFA, prevention that you must follow : Identify Asthma Triggers, Stay Away From Allergens,Avoid Smoke of Any Type,SUGGESTED FOODS ARE:carrots,juice,eggs,broccoli,cantaloupe,milk"]
+   },
+   {
+    "tag":"common cough prevention",
+    "patterns":["What medicines can I buy to help me with my common cough?","tell me some prevention method from common cough","What should I eat or drink if i am suffering from common cough?"],
+    "responses":["medicines you can consume :Benadryl  Syrup. \npreventions that you must follow :Wash your hands,Avoid touching your face,Clean frequently used surfaces,Use hand sanitizers,SUGGESTED FOODS ARE:Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup"]
+   },
+   {
+    "tag":"pain killer",
+    "patterns":["I am suffering from Abdominal pain ","What medicines can I buy to help me with my Stomach Pain?","I am suffering fron Headache","I have toothache,Which medicine should I take?"],
+    "responses":["medicines you can consume :Dolo 650 Tablet,Zerodol,Brufen,Combiflam Tablet\n To get recover from Headache you must take plenty rest, Drink more water."]
+    
+   },
+   {
+    "tag":"Fungal Infection",
+    "patterns":["I have fungal infection on my body.","How do I get rid from Infection","How to cure Fungal Infection"],
+    "responses":["medicines you can consume: Fluka 150 tablet \nand you must wear clean and well washed cloths. Keep your personal hygiene. Take proper bath."]
+
+   },
+   {
+    "tag":"Consultation",
+    "patterns": ["who should i contact for consultation?","is there any doctor available?","can you give me some suggestions for doctor consultations?","can you set up a meeting with a doctor for consultation?","is there any doctor available for consultation"],
+    "responses":["You can contact various doctors here for any kind of consultation: 1. https://www.1mg.com/online-doctor-consultation, 2. https://www.tatahealth.com/online-doctor-consultation/general-physician, 3. https://www.doconline.com/, or you can pay a visit to your local area doctor or family doctor."]
+   }
+
+
+]}

@@ -1,0 +1,498 @@
+{"intents":[
+    {"tag":"greetings",
+     "patterns":["hello","hey","hi","good day","greetings","what's up ?","how is it going ?"],
+     "responses":["hello!","Hey!","what can I do for you ?"]
+    },
+    {"tag":"goodbye",
+     "patterns":["cya","See you later","Goodbye","I am Leaving","Have a Good day","bye","cao","see ya"],
+     "responses":["Sad to see you go :(","Talk to you later","Goodbye!"]},
+    {"tag":"age",
+     "patterns":["how old","what is your age","how old are you","age"],
+     "responses":["My owner pruthvi is 20 years old","21 years !"]
+
+
+    },
+    {"tag":"name",
+     "patterns":["what is your name","what should i call you","whats your name?","who your name?","who are you?","can you tell me your name?"],
+     "responses":["you can call me PR!","i am PR!","i am PR the assistant of pruthvi!"]
+
+
+    },
+    {"tag":"hours",
+     "patterns":["when are you guys open","what are your hours","hours of operation"],
+     "responses":["24/7"]
+
+    },
+
+    {"tag":"Breast Cancer",
+     "patterns":["Breast cancer","I am suffering from breqast cancer","How to cure breast cancer"],
+     "responses":["Treatment: 1.,Chemotherapy: Cyclophosphamide, Vinblastine, Fluorouracil & Gemcitabine \nRadiation therapy \nHormonal therapy: Tamoxifen, Fulvestrant, Letrozole & Megestrol \nTargeted therapy: Trastuzumab, Pertuzumab, Neratinib  & Alpelisib \nSurgery: Mastectomy, Breast conserving therapy & Breast reconstruction therapy"]
+    },
+     
+    {"tag":"Bloating",
+     "patterns":["Stomach gas, Belching, Flatulence and Abdominal distension"],
+     "responses":["Treatment: Lactase, Antacids: Emeset 4 Tablet,  Ondem -MD 4 Tablet"]
+
+    },
+
+    {"tag":"Alzheimer",
+     "patterns":["Alzheimer","I am suffering from Alzheimer","How to cure Alzheimer"],
+     "responses":["Treatment: Vitamin B12, Antidepressants,Anti-anxiety medications,N-methyl-D-aspartate (NMDA) receptors,Acetylcholinesterase inhibitors,"]
+
+    },
+     
+    {"tag":"Diabetes",
+     "patterns":["Diabetes","I am suffering from Diabetes","How to cure Diabetes"],
+     "responses":["Treatments availabe Diabetes: Biguanides: Metformin,Insulin pumps,DPP-4 inhibitors: Sitagliptin & Saxagliptin,Rapid acting insulin: Lispro & Glulisine,Intermediate acting insulin: Lente & Insulin Isophane,Long acting insulin: Ultralente & protamine zinc,Ultra-long acting insulin: Glargine, Detemir & Degludec \nmedicines you can consume : Insulin ,Amylinomimetic drug,Dipeptidyl peptidase-4 (DPP-4) inhibitor, prevention that you must follow :Cut Sugar and Refined Carbs From Your Diet,Work Out Regularly,Drink Water as Your Primary Beverage,Lose Weight If You’re Overweight or Obese,Quit Smoking, Follow a Very-Low-Carb Diet,Watch Portion Sizes,SUGGESTED FOODS ARE:Leafy greens,Avocados,Eggs"]
+
+    }, 
+      
+    {"tag":"Dental pain",
+    "patterns":["Dental pain","I have toothache","I am suffering from Toothache","How to cure toothache"],
+    "responses":["Treatment available: Pain releivers: NSAIDs, opoids & antyi sensitivity toothpastes, Dental procedures: Scaling & planing, cavity filling, root canal treatment & tooth extraction, You can use Mouthwashes and Antibiotics as per Doctors Advice"]
+
+   },
+
+   {"tag":"Back pain",
+     "patterns":["Back pain","I have Back pain","I am suffering from Back pain"],
+     "responses":["Treatment available: Medications: Ibuprofen, Codeine & Hydrocodone \n Topical pain creams: Topical Diclofenac & Trolamine Salicylate \n TENS (transcutaneous electric nerve stimulation) therapy \n Surgery"]
+
+    },
+
+    {"tag":"Acne",
+     "patterns":["Acne","I am suffering from Acne","I have Acne"],
+     "responses":["Treatment available: Retinoids: Retinoic acid, Tretinoin & Adapalene \n Antimicrobials: Azelaic acid \n Topical antibiotics: Clindamycin & Azithromycin \n Anti-acne agents: Salicylic acid \n Systemic antibiotics: Doxycycline & Minocycline  \n   Oral Isotretinoin "]
+
+    },
+    {"tag":"Allergic conditions",
+     "patterns":["Allergic conditions","I am suffering from some Allergic conditions"],
+     "responses":["Treatment available: Antihistamines: Levocetirizine & Chlorpheniramine Maleate \n Nasal Decongestants: Xylometazoline & Oxymetazoline , Corticosteroids: Prednisolone, Hydrocortisone & Betamethasone , Bronchodilators: Salbutamol , Immunotherapy "]
+
+    },
+    {"tag":"Anxiety",
+     "patterns":["Anxiety","I am suffering from Anxiety"],
+     "responses":["Treatment available: Selective serotonin reuptake inhibitors (SSRIs): Fluoxetine & Sertraline \n Serotonin-norepinephrine reuptake inhibitors (SNRIs): Venlafaxine & Duloxetine\n Tricyclic antidepressants (TCAs): Moclobemide \n Sedatives and tranquilizers: Diazepam & Lorazepam\n Beta-blockers: Propranolol"]
+
+    },
+
+    {"tag":"Thyroid",
+     "patterns":["Thyroid","I have Thyroid"],
+     "responses":["Treatment available: Radioactive iodine. Taken by mouth, radioactive iodine is absorbed by your thyroid gland, where it causes the gland to shrink \n Anti-thyroid medications. These medications gradually reduce symptoms of hyperthyroidism by preventing your thyroid gland from producing excess amounts of hormones. They include methimazole (Tapazole) and propylithiouracil. \n Surgery (thyroidectomy). If you're pregnant or you otherwise can't tolerate anti-thyroid drugs and don't want to or can't have radioactive iodine therapy, you may be a candidate for thyroid surgery"]
+
+    },
+
+    {"tag":"Menstrual cramps",
+     "patterns":["Menstrual cramps","I am suffering from Mentural Cramps"],
+     "responses":["Treatment available: Pain relievers. Over-the-counter pain relievers, such as ibuprofen (Advil, Motrin IB, others) or naproxen sodium (Aleve), at regular doses starting the day before you expect your period to begin can help control the pain of cramps. Prescription nonsteroidal anti-inflammatory drugs also are available. \n Start taking the pain reliever at the beginning of your period \n Hormonal birth control. Oral birth control pills contain hormones that prevent ovulation and reduce the severity of menstrual cramps. These hormones can also be delivered in several other forms: an injection, a skin patch, an implant placed under the skin of your arm, a flexible ring that you insert into your vagina \nSurgery. If your menstrual cramps are caused by a disorder such as endometriosis or fibroids, surgery to correct the problem might help your symptoms. Surgical removal of the uterus also might be an option if other approaches fail to ease your symptoms and if you're not planning to have children."]
+
+    },
+
+ 
+
+   {"tag":"Dandruff",
+     "patterns":["Dandruff","How to get rid from Dandruff","How to remove Dandruff"],
+     "responses":["Treatments available: You can prefer Antifungal agents: Zinc Pyrithione, Ketoconazole, Climbazole, Selenium Sulphide, Clotrimazole & Piroctone Olamine , Anti-proliferative agents: Coal tar and Keratolytics: Salicylic acid "]
+
+    },
+
+    {"tag":"Dengue",
+     "patterns":["Dengue","How to get cure from Dengue","I got Dengue"],
+     "responses":["For Dengue Treatment available are: You can consume Paracetamol Tablet, Fluid replacement (hydration),Platelet transfusion. And You must do the Dengue antigen test and Dengue antibody IgM test also do the Complete Blood Count"]
+    },
+  
+
+    {"tag":"Dizziness",
+     "patterns":["Dizziness","I am feeling Dizzy"],
+     "responses":["Treatments for Dizziness are: Vestibular suppressants: Antihistamines, Benzodiazepines & Anticholinergic drugs \n Antiemetics: Promethazine & Ondansteron, Antibiotics, Betahistine also you can take Electrolytes/glucose drinks"]
+
+    },
+    
+    {"tag":"Dry eyes",
+     "patterns":["Dry eyes","I got Dry eyes","How tmo cure Dry eyes"],
+     "responses":["Necessary treatments you can take to get rid from Dry eyes : Artificial tears, Anti-inflammatory medications, \n You can also consume Antibiotics: Doxycycline, Minocycline & Azithromycin, Punctal plugs: Temporary/dissolving plugs & Semi-permanent plugs."]
+
+    },
+    {"tag":"Dry Skin",
+     "patterns":["Dry Skin","How to cure Dry Skin"],
+     "responses":["Treatments to cure Dry Skin are: Moisturizers: Glycerin, Urea, Lanolin &  Propylene glycol \n Medications: Clobetasone, Hydrocortisone, Betamethasone & Clobetasol"]
+
+    },
+    {"tag":"Dysentery",
+     "patterns":["Dysentery","Diarrhea","I am suffering from Dysentery"],
+     "responses":["Treatments to cure Dysentery are: Antibiotics and antiparasitics: Ciprofloxacin, Azithromycin & Norfloxacin-Tinidazole, Antipyretics: Paracetamol , Electrolyte supplements: Oral rehydration salts (ORS), Anti-diarrhea drugs: Loperamide."]
+
+    },
+    {"tag":"Ear pain",
+     "patterns":["Ear pain","I have Ear pain","How to get cure from Ear pain"],
+     "responses":["Treatments for Ear pain are: Medications: Amoxicillin, Ibuprofen, Acetic acid & Benzocaine \n Surgical procedures: Myringotomy & Ear tubes"]
+
+    },
+    {"tag":"Eczema",
+     "patterns":["Eczema","How to get cure from Eczema"],
+     "responses":["Treatments for Eczema are: Medications: Corticosteroid creams, Antibiotics & Antihistamines, Phototherapy"]
+
+    },
+    {"tag":"Fainting",
+     "patterns":["Fainting","I am Fainting"],
+     "responses":["You can consume Medications: Beta-blockers, Selective serotonin reuptake inhibitors & Fludrocortisone."]
+
+    },
+    {"tag":"Food allergies",
+     "patterns":["Food allergies","I have Food allergies"],
+     "responses":["Treatment for Food allergies are as folows: Adrenaline (epinephrine) injection \n Antihistamines, Bronchodilators"]
+
+    },
+
+    {"tag":"Fungal skin infections",
+     "patterns":["Fungal skin infections","I am suffering from Fungal Infection","How to cure Fungal skin infections"],
+     "responses":["Treatment for Fungal Infection: Topical antifungals: Clotrimazole, Ketoconazole & Miconazole and Oral antifungals: Terbinafine, Fluconazole & Itraconazole"]
+
+    },
+
+    {"tag":"Hair loss",
+     "patterns":["Hair loss","How to cure Hair loss","I am suffering from Hair loss"],
+     "responses":["Treatment for Hair loss are: Oral supplements for nutritional deficiencies: Vitamin B12 (Cobalamin), Vitamin B7 (Biotin), Zinc & Iron \n Minoxidil  , Finasteride, Hair transplantation: Follicular Unit Transplantation or FUT, Follicular Unit Extraction or FUE, Topical corticosteroids or steroid injections, Platelet rich plasma (PRP) therapy,Laser treatment"]
+
+    },
+    {"tag":"Headache",
+     "patterns":["Headache","How to cure Headache","I am suffering from Headache"],
+     "responses":["To cure the Headache you can use this treatments: Oral analgesics: Ibuprofen & Paracetamol  \n Antiemetics: Domperidone \n Combination analgesics \n Triptans: Sumatriptan, Physical therapy"]
+
+    },
+    {"tag":"Head lice",
+     "patterns":["Head lice","I am suffering from Head lice"],
+     "responses":["Treatment: Pyrethrin, Permethrin, Benzyl alcohol lotion 5%, Ivermectin lotion 0.5%, Malathion lotion 0.5%, Spinosad 0.9% topical suspension, Lindane shampoo 1%"]
+
+    },
+    {"tag":"Heart attack",
+     "patterns":["Heart attack","I got Heart attack","What to do for Heart attack"],
+     "responses":["Treatment is: Thrombolytic drugs: Streptokinase, Alteplase & Urokinase \nAnticoagulants: Apixaban, Dabigatran & Heparin \nAntiplatelet agent: Aspirin, Clopidogrel & Prasugre \nAngiotensin-converting enzyme (ACE) inhibitors: Fosinopril, Captopril & Enalapril \nAngiotensin receptor blockers: Telmisartan, Losartan & Valsartan \nBeta blockers: Atenolol, Metoprolol & Propranolol \nCombined alpha and beta blockers: Carvedilol & Labetalol \nSurgery: Percutaneous coronary intervention, Bypass surgery &  Atherectomy \nImplantable medical devices: Pacemaker, Implantable cardiac defibrillator (ICDs) & Ventricular assist devices (VADs) \nDiuretics: Hydrochlorothiazide, Chlorthalidone & FurosemideStatins (cholesterol lowering agents): Atorvastatin, Lovastatin & Rosuvastatin"]
+
+    },
+    {"tag":"Hypercalcemia",
+     "patterns":["Hypercalcemia","I am suffering from Hypercalcemia"],
+     "responses":["Treatment available: Drugs acting on osteoclasts: Calcitonin & Mithramycin \nDrugs for cancer related hypercalcemia: Bisphosphonates, Denosumab, Pamidronate & Prednisone \nOther drugs: Cinacalcet, Diuretics & Ketoconazole"]
+
+    },
+    {"tag":"high blood pressure",
+     "patterns":["I have high blood pressure","What are treatment for high blood pressure"],
+     "responses":["Treatment available: Thiazides diurectics: Hydrochlorothiazide & Chlorthalidone   \nLoop diuretics: Furosemide & Torsemide \nPotassium-sparing diuretics: Triamterene & Amiloride \nCalcium channel blockers: Amlodipine & Nifedipine \n ACE inhibitors: Captopril & Enalapril \nAngiotensin II receptor blockers (ARBs): Telmisartan & Losartan \nBeta-blockers: Atenolol & Metoprolol \nVasodilators: Hydralazine & Minoxidil \nAldosterone antagonist: Spironolactone \nAlpha blockers: Doxazosin & Prazosin"]
+
+    },
+    {"tag":"low blood suga",
+     "patterns":["I have low blood sugar","low blood sugar"],
+     "responses":["Treatment available: Carbohydrate-rich foods, Glucagon, Octreotide, Intravenous glucose"]
+
+    },
+
+
+    {"tag":"Indigestion",
+     "patterns":["Indigestion","I have Indigestion","I am sufferuing from Indigestion"],
+     "responses":["Treatment available: Antacids, Prokinetic agents, Antibiotics for treatment of H.pylori infection- Amoxicillin, Clarithromycin ,Tetracycline, Mesalazine formulations, Tricyclic antidepressants"]
+
+    },
+
+    {"tag":"Insomnia",
+     "patterns":["Insomnia","I am suffering from Insomnia"],
+     "responses":["Treatment available: (Z) drugs: Zolpidem, Zopiclone & Zaleplon, Heterocyclic antidepressants: Trazodone & Amitriptyline, Barbiturates: Phenobarbitone & Thiopentone sodium, Benzodiazepines: Alprazolam, Lorazepam & Clonazepam "]
+
+    },
+
+    {"tag":"Jaundice",
+     "patterns":["Jaundice","I am suffering from Jaundice","How to cure Jaundice"],
+     "responses":["Treatment available: Medications: Iron supplements, Antihistamines, Cholestyramine, Rifampin, and Naltrexone, Surgery"]
+
+    },
+   
+    {"tag":"Joint pain",
+    "patterns":["Joint pain","I have Joint pain","i am sufferuing from Joint pain"],
+    "responses":["Treatment available: NSAID analgesics:Ibuprofen, Diclofenac & Paracetamol \n Narcotics: Tramadol & Morphine \nMuscle relaxants: Cyclobenzaprine \n Corticosteroids: Prednisolone \n Disease-modifying anti-rheumatic drugs (DMARDs): Methotrexate and Leflunomide \nAntigout drugs: Allopurinol & Colchicine  \nSurgery: Synovectomy, Osteotomy & Joint replacement surgery"]
+
+   },
+
+   {"tag":"Kidney stone",
+     "patterns":["Kidney stone","I have Kidney stone wjhat to do for it"],
+     "responses":["Treatment available: Non-steroidal anti-inflammatory drug (NSAIDs): Aspirin (acetylsalicylic acid), Ecotrin, Bufferin, Diclofenac &  Ketoprofen \n Anti-sickness medicine: Cinnarizine, Hyoscine & Chlorpromazine \n Alpha-blockers (medicines to help stones pass): Tamsulosin  Alfuzosin, & Nifedipine"]
+
+    },
+
+    {"tag":"Malaria",
+     "patterns":["Malaria","I have Malaria","I am suffering from Malaria"],
+     "responses":["Treatment available:     Chloroquine,Quinine, Primaquine, Paracetamol, Ibuprofen, Clindamycin, Lumefantrine, Mefloquine, "]
+
+    },
+   
+    {"tag":"Migraine",
+     "patterns":["Migraine","I have Migraine","I am suffering from Migraine"],
+     "responses":["Treatment available:Antiemetics:Metoclopramide & Prochlorperazine \n CGRP antagonists: Erenumab & Fremanezumab \nBeta blockers: Propanolol & Metoprolol \nAntidepressants: Amitriptyline & Fluoxetine \nAntiepileptics: Topiramate & Sodium valproate \nCalcium channel blockers: Flunarizine & Verapamil"]
+
+    },
+
+    {"tag":"Monkeypox",
+     "patterns":["I have Monkeypox","I am suffering from Monkeypox"],
+     "responses":["Treatment available: Supportive care: Paracetamol, Antiemetics & Antihistamines , Medical management: Antivirals, Tecovirimat, Brincidofovir & Cidofovir"]
+
+    },
+
+    {"tag":"Mouth ulcers",
+     "patterns":["Mouth ulcers","I am suffering from Mouth ulcers","How to cure Mouth ulcers"],
+     "responses":["Treatment available: Mouth Ulcer jel, B-Complex capsules, Mouthwashes containing dexamethasone,Multivitamins,Multivitamins,Antibiotics,Antipyretics and Analgesics,Antiseptics,GERD drugs"]
+
+    },
+
+    {"tag":"Nausea",
+     "patterns":["Nausea","I am suffering from Nausea","How to cure Nausea"],
+     "responses":["Treatment available: Antiemetic drugs: Domperidone, Ondansetron & Prochlorperazine  \n Antiemetics for morning sickness: Doxylamine + Vitamin B6 (Pyridoxine) \n Antihistamines: Promethazine & Meclizine \n Anticholinergic medications \n Prokinetic drugs: Metoclopramide & Itopride, Supportive care: Oral Rehydrating Solutions (ORS)"]
+
+    },
+
+    {"tag":"Neck pain",
+     "patterns":["Neck pain","I am suffering from Neck pain","I have Neck pain"],
+     "responses":["Treatment available: Medications: Acetaminophen, Antidepressants, Ibuprofen & Naproxen \n Injections: Facet joint injections & Cervical epidural steroid injection  \n Surgery: Discectomy, Physical therapy"]
+
+    },
+
+    {"tag":"Piles",
+     "patterns":["Piles","I have piles"," I am suffering from Piles"],
+     "responses":["Treatment available: Painkillers: Paracetamol \n Laxatives: Ispaghula husk, Polyethylene glycol & Lactulose \n Phlebotonics: Diosmin, Troxerutin, & Calcium dobesilate \n Hospital based treatments: Rubber band ligation, Injection sclerotherapy, Electrotherapy, Cryotherapy & Infrared coagulation (IRC) \n Surgery: Hemorrhoidectomy, Stapled hemorrhoidectomy & Haemorrhoidal artery ligation."]
+
+    },
+
+    {"tag":"Pneumonia",
+     "patterns":["Pneumonia","I have Pneumonia","I am suffering from Pneumonia"],
+     "responses":["Treatment available:Antibiotics: Ciprofloxacin, Cefepime, Azithromycin & Levofloxacin \n Antifungals: Fluconazole, Itraconazole & Amphotericin B \n Antivirals: Oseltamivir \n Mucolytics: Acetylcysteine"]
+
+    },
+
+    {"tag":"Rabies",
+     "patterns":["Rabies","I am suffering from Rabies","I have Rabies","How to cure Rabies"],
+     "responses":["Treatment available: Wound cleansing, Rabies immunoglobulin(RIG) , Rabies vaccine"]
+
+    },
+    
+    {"tag":"Ringworm",
+     "patterns":["Ringworm","I have Ringworm","I am suffering from Ringworm"],
+     "responses":["Treatment available: Topical antifungals: Ketoconazole, Clotrimazole, Ciclopirox & Selenium sulphide \n Oral antifungals: Griseofulvin, Itraconazole, Terbinafine & Fluconazole \n Surgery"]
+
+    }, 
+
+    {"tag":"Scabies",
+     "patterns":["Scabies","I am suffering from Scabies","How to cure Scabies"],
+     "responses":["Treatment available: v \n Antipruritics (or anti-itch drugs) \n Permethrin, Crotamiton, Benzyl Benzoate, Ivermectin"]
+
+    },
+
+    {"tag":"Sore throat",
+     "patterns":["Sore throat","I am suffering from Sore throat","How to cure Sore throat"],
+     "responses":["Treatment available: Analgesics: Paracetamol, Ibuprofen & Aspirin and v"]
+
+    },
+
+    {"tag":"Stress",
+     "patterns":["Stress","I am suffering from Stress","How to cure Stress"],
+     "responses":["Treatment available: Therapy/counseling: Cognitive behavioral therapy, Acceptance and commitment therapy, Psychodynamic therapy & Positive psychology therapy and Medications: Sleeping pills and tranquilizers for sleep"]
+
+    },
+
+    {"tag":"Sun Stroke",
+     "patterns":["Sun Stroke","How to cure Sun Stroke","I got Sun Stroke"],
+     "responses":["Treatment available: Antiplatelets: Aspirin & Clopidogrel \n Anticoagulants: Warfarin, Apixaban & Rivaroxaban \n Anti-hypertensives: Angiotensin receptor blockers, Calcium channel blockers, Beta-blockers & ACE inhibitors \n Statins: Atorvastatin, Rosuvastatin & Pitavastatin \n Fibrinolytics: Alteplase & Reteplase"]
+
+    },
+
+    {"tag":"Tiredness",
+     "patterns":["Tiredness","I am feeling Tiredness","I am suffering from Tiredness"],
+     "responses":["Treatment available: Supplements: Vitamin C & Folic acid \n Analgesics: Ibuprofen & Diclofenac \n Antibiotics \n Oral hypoglycemic drugs: Metformin, Glimepiride & Sitagliptin \n Beta-blockers, diuretics, or calcium channel blockers \n Anti-anxiety medicines: Fluoxetine & Venlafaxine "]
+
+    },
+
+    {"tag":"Tuberculosis",
+     "patterns":["Tuberculosis","TB"," I am suffering from TB"],
+     "responses":["Treatment available:Antibiotics, Isoniazid, Antipyretics & Painkillers, Antitussives, B-complex Vitamins, Amikacin,Streptomycin"]
+
+    },
+
+    {"tag":"Typhoid",
+     "patterns":["Typhoid"," I am suffering from Typhoid"],
+     "responses":["Treatment available: Antibiotic therapy: Ciprofloxacin, Amoxicillin, Trimethoprim-sulfamethoxazole & Chloramphenicol"]
+
+    },
+
+    {"tag":"Vaginal yeast infection",
+     "patterns":["Vaginal yeast infection"," I have Vaginal yeast infection","I am sufferiung from Vaginal yeast infection"],
+     "responses":["Treatment available: Candida diet, Supplements for candida infections, Anti-fungal medications: Miconazole, Terconazole, Ketoconazole, Fluconazole & Itraconazole"]
+
+    },
+
+    {"tag":"Whooping cough",
+     "patterns":["Whooping cough","I am sufferinf from Whooping cough"],
+     "responses":["Treatment available:     Antibiotics: Azithromycin, Clarithromycin & Erythromycin"]
+
+    },
+
+    {"tag":"Acidity",
+     "patterns":["Acidity","I am suffering from Acidity","How to cure Acidity"],
+     "responses":["Treatment available: Antacids: Aluminum Hydroxide, Magnesium Trisilicate & Calcium Carbonate \n H2 receptor blockers: Famotidine & Ranitidine  \n Proton pump inhibitors: Omeprazole, Pantoprazole & Rabeprazole \n Prokinetic drugs: Domperidone, Metoclopramide & Levosulpiride \n Coating drugs: Sucralfate & Colloidal bismuth (CBS)"]
+
+    },
+
+    {"tag":"",
+     "patterns":[""],
+     "responses":["Treatment available:"]
+
+    },
+
+    {
+        "tag": "caring",
+        "patterns": ["How are you doing?","How are you?"],
+        "responses": ["I m fine! Thanks for asking", "I m doing good! How can I help you?"]
+    },
+    {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+        "tag": "noanswer",
+        "patterns": [""],
+        "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"]
+    },
+    {
+        "tag": "options",
+        "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+        "responses": ["I am a Health Care  Bot to help you", "I can give you suggestions related to Health condition"]
+    },
+    {
+        "tag": "ask",
+        "patterns": ["I am not feeling well","I guess I am suffering from COVID","How can you tell I am suffering from COVID"],
+        "responses": ["Please tell about your symptomps and I will tell you how much severe they are","Tell me your symptomps and I will tell you how much severe they are"]
+    },
+   
+    {
+        "tag": "lesscommon",
+        "patterns": ["sore throat","loss of smell","loss of taste","cant smell anything","cant taste anything","headache","aches and pain","diarrhoea","a rash on skin","discoloration of fingers or toes","red irritated eyes"],
+        "responses": ["You might be suffering from Sore throat but this is not much sever. Take Azithromycin 500mg Tablet after Dinner or Lunch, Drin luke warm water frequently"]
+    },
+    {
+        "tag": "serious",
+        "patterns": ["difficulty breathing","shortness of breath","loss of speech","loss of mobility","loss of confusion","chest pain"],
+        "responses": ["Seek immediate medical attention if you have serious symptoms. Always call before visiting your doctor or health facility.\nYou can also seek for some food suggestion"]
+    },
+   
+    {
+        "tag": "foodsuggestion2",
+        "patterns": ["What kind of food should I neglect?","What should i dont eat?","What kind of food items should I avoid for better health?"],
+        "responses": ["1. Limit your salt intake\n2. Limit sugar intake\n3. Limit your fat intake\n4. Avoid alcohol as much as you can"]
+    },
+    {
+        "tag": "foodprecautions",
+        "patterns": ["What kind of measures should I take to avoid Diseases","What should i dont eat?","What kind of food items should I avoid for better health?"],
+        "responses": ["1.Take proper diet include proteins,vitamins in your diet\n2. Limit sugar intake\n3. Limit your fat intake\n4. Avoid alcohol as much as you can"]
+    },
+  
+   
+  
+   
+    {
+        "tag": "What can I do to protect myself and prevent the spread of disease?",
+        "patterns": ["What can I do to protect myself and prevent the spread of disease", "Protection measures for everyone", "prevent the spread of disease"],
+        "responses": ["Stay aware about personal Hygiene eat well cooked food. \nEat seasonable fruits and do regular doctor checkups"]
+    },
+    {
+        "tag": "How likely am I to catch any Disease",
+        "patterns": ["How likely am I to catch Disease"],
+        "responses": ["The risk depends on how you keep Hygiene. Because most of the disease are caused due to not maitinaing hygine."]
+    },
+    
+
+    
+  
+    {
+        "tag": "Is there a vaccine, drug or treatment for COVID-19",
+        "patterns": ["Is there a vaccine, drug or treatment for COVID 19", "Is there a vaccine, drug or treatment for coronavirus"],
+        "responses": ["Not yet. To date, there is no vaccine and no specific antiviral medicine to prevent or treat COVID-2019. However, those affected should receive care to relieve symptoms. People with serious illness should be hospitalized. Most patients recover thanks to supportive care.Possible vaccines and some specific drug treatments are under investigation. They are being tested through clinical trials. WHO is coordinating efforts to develop vaccines and medicines to prevent and treat COVID-19.The most effective ways to protect yourself and others against COVID-19 are to frequently clean your hands, cover your cough with the bend of elbow or tissue, and maintain a distance of at least 1 meter (3 feet) from people who are coughing or sneezing"]
+    },
+    {"tag": "options",
+    "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+    "responses": ["I can guide you through Adverse drug reaction list, Blood pressure tracking, Hospitals and Pharmacies", "Offering support for Adverse drug reaction, Blood pressure, Hospitals and Pharmacies"],
+    "context": [""]
+   }
+   ,
+   {
+    "tag":"common cold symptoms",
+    "patterns": ["Runny or stuffy nose",
+    "Sore throat",
+    "Cough",
+    "Congestion",
+    "Slight body aches or a mild headache",
+    "Sneezing",
+    "Low-grade fever",
+    "Generally feeling unwell (malaise)"],
+    "responses":["It seems that you are suffering from common cold"]
+   },
+  
+   
+   {
+    "tag":"Depression symptoms",
+    "patterns":["Hopeless outlook",
+    "Lost interest",
+    "Increased fatigue",
+    "sleep problem",
+    "Anxiety",
+    "change in weight",
+    "Looking at death"],
+    "responses":["It seem that you are suffering from depression"]
+   },
+  
+   {
+    "tag":"common cold prevention",
+    "patterns":["What medicines can I buy to help me with my common cold?","tell me some prevention method from common cold","What should I eat or drink if i am suffering from common cold?","How can I keep from getting a cold or the flu?"],
+    "responses":["medicines you can consume :Citrizine, Sinarest,Crocin Cold & Flu Max. \npreventions that you must follow :Wash your hands,Avoid touching your face,Clean frequently used surfaces,Use hand sanitizers,SUGGESTED FOODS ARE:Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup \nFlomist Nasal Spray / Otrivin Nasal Spray you can use this Nasal Spray in case you are suffering from running nose"]
+   },
+   {
+    "tag":"fever",
+    "patterns":["What medicines can I buy to help me with my fever?","tell me some prevention method from fever","What should I eat or drink if i am suffering from fever?","How can I keep from getting a fever?"],
+    "responses":["medicines you can consume : Sumocold, Paracetomol,Dolo 650,aspirin,Crocin Cold & Flu Max Tablet. \nprevention that you must follow :Wash your hands,Cover your mouth when you cough and your nose when you sneeze,Clean frequently used surfaces,Avoid sharing cups, glasses, and eating utensils with other people.,SUGGESTED FOODS ARE:Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup"]
+   },
+   {
+    "tag":"Allergy",
+    "patterns":["I am suffering from allergy","How to cure Allergy","Which medicines should I take to get recover from Allergy?"],
+    "responses":["medicines you can consume : Avil Tablet,Decardon Tablet \nAlso please consult with a physician."]
+
+   },
+  
+   {
+    "tag":"Depression",
+    "patterns":["What medicines can I buy to help me with my -?","tell me some prevention method from depression","What should I eat or drink if i am suffering from depression?","How can I keep from getting depression?"],
+    "responses":["medicines you can consume : Amixide-H Tablet , \nprevention that you must follow :Exercise regularly,Cut back on social media time,Drink Water as Your Primary Beverage,Build strong relationships,Minimize your daily choices, Follow a Very-Low-Carb Diet,SUGGESTED FOODS ARE:Get Enough Vitamin D,Include Omega-3 Fatty Acids,Beans and legumes"]
+   },
+   {
+    "tag":"Asthma",
+    "patterns":["What medicines can I buy to help me with my asthma?","tell me some prevention method from asthma","What should I eat or drink if i am suffering from asthma?","How can I keep from getting asthma?"],
+    "responses":["medicines you can consume : Deriphyllin Tablet ,Decardon Tablet, epinephrine,anticholinergic,Proair HFA, prevention that you must follow : Identify Asthma Triggers, Stay Away From Allergens,Avoid Smoke of Any Type,SUGGESTED FOODS ARE:carrots,juice,eggs,broccoli,cantaloupe,milk"]
+   },
+   {
+    "tag":"common cough prevention",
+    "patterns":["What medicines can I buy to help me with my common cough?","tell me some prevention method from common cough","What should I eat or drink if i am suffering from common cough?"],
+    "responses":["medicines you can consume :Benadryl  Syrup. \npreventions that you must follow :Wash your hands,Avoid touching your face,Clean frequently used surfaces,Use hand sanitizers,SUGGESTED FOODS ARE:Garlic,Vitamin C–containing fruits,Leafy greens,Broccoli,Oatmeal,Spices,Chicken Soup"]
+   },
+   {
+    "tag":"pain killer",
+    "patterns":["I am suffering from Abdominal pain ","What medicines can I buy to help me with my Stomach Pain?","I am suffering fron Headache","I have toothache,Which medicine should I take?"],
+    "responses":["medicines you can consume :Dolo 650 Tablet,Zerodol,Brufen,Combiflam Tablet\n To get recover from Headache you must take plenty rest, Drink more water."]
+    
+   },
+   {
+    "tag":"Fungal Infection",
+    "patterns":["I have fungal infection on my body.","How do I get rid from Infection","How to cure Fungal Infection"],
+    "responses":["medicines you can consume: Fluka 150 tablet \nand you must wear clean and well washed cloths. Keep your personal hygiene. Take proper bath."]
+
+   },
+   {
+    "tag":"Consultation",
+    "patterns": ["who should i contact for consultation?","is there any doctor available?","can you give me some suggestions for doctor consultations?","can you set up a meeting with a doctor for consultation?","is there any doctor available for consultation"],
+    "responses":["You can contact various doctors here for any kind of consultation: 1. https://www.1mg.com/online-doctor-consultation, 2. https://www.tatahealth.com/online-doctor-consultation/general-physician, 3. https://www.doconline.com/, or you can pay a visit to your local area doctor or family doctor."]
+   }
+
+
+]}

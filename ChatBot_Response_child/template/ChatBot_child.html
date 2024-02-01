@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static',filename='ChatBot_full.css')}}">
+    <!-- <link rel="stylesheet" href="F:\ChatBot\static\ChatBot_full.css"> -->
+    <title>Chatbot</title>
+</head>
+<body>
+   <!-- navbar start -->
+    <!-- <nav class="navbar">
+        <ul class="tags">
+        <li class="name"><a href="">Health Care PR Chatbot</a></li>
+        <div class="tags2">
+            <li ><a class="active" href=""><h3></h3></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+        </div>
+        </ul>
+    </nav> -->
+    <!-- navbar end -->
+    <div class="con">
+        <!-- <img id="backG" src="{{url_for('static',filename='chat.jpg')}}" alt="" srcset=""> -->
+        <!-- <img id="backG" src="F:\ChatBot\static\chat.jpg"> -->
+        <div class="chatbox">
+            <div class="sup">
+                <div class="header">
+                    <div class="chatbox__image--header">
+                        <img src="{{url_for('static',filename='iconchat.png')}}" alt="image">
+                    </div>
+                    <div class="chatbox__content--header">
+                        <h4 class="chatbox__heading--header">Health Chatbot for Child  </h4>
+                        <p class="chatbox__description--header">Hi. My name is PR. How can I help you?</p>
+                    </div>
+                </div>
+                <div class="messages">
+                    <div></div>
+                </div>
+                <div class="footer">
+                    <input type="text" placeholder="Write a message...">
+                    <button class="chatbox__send--footer send__button">Send</button>
+                </div>
+            </div>
+          
+        </div>
+    </div>
+    <script>
+        var $SCRIPT_ROOT={{request.script_root|tojson}};
+       
+      </script>
+      <script src="{{url_for('static',filename='chatBot_child.js')}}"></script>
+    <!-- <script src="F:\ChatBot\static\chatBot.js"></script> -->
+</body>
+</html>
